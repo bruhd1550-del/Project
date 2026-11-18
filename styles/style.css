@@ -493,3 +493,61 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* ==============================
+   CONTACT SECTION
+============================== */
+
+#contact {
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 750px;
+    margin: auto;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-description {
+    margin: 0 auto 35px;
+    line-height: 1.8;
+}
+
+.contact-card {
+    background: #171717;
+    border: 1px solid #292929;
+    border-radius: 12px;
+    padding: 40px 25px;
+}
+
+.contact-label {
+    color: #e63946;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.contact-card h3 {
+    font-size: 22px;
+    margin: 15px 0 25px;
+}
+
+.contact-button {
+    display: inline-block;
+    background: #e63946;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background: #bd2834;
+    transform: translateY(-3px);
+}
