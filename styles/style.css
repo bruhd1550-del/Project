@@ -598,3 +598,9 @@ footer {
     border-color: #e63946;
     transform: translateY(-3px);
 }
+/* Keyboard Accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid #e63946;
+    outline-offset: 4px;
+}
