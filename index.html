@@ -27,20 +27,36 @@
         </nav>
     </header>
 
+   
     <!-- Home Section -->
     <section id="home">
-        <h1>Hello, I'm John Zachary G. David</h1>
-        <h2>BSIT Student | Aspiring Game Developer</h2>
-        <p>Just a chill guy who enjoys games, creativity, and learning new things.</p>
-        <a href="#about">Learn More</a>
+        <div class="home-content">
+            <p class="home-greeting">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>John Zachary G. David</span></h1>
+
+            <h2>BSIT Student | Aspiring Game Developer</h2>
+
+            <p>
+                Just a chill guy who enjoys games, creativity,
+                and learning new things. I turn ideas into
+                experiences through technology and creativity.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn-primary">View My Projects</a>
+                <a href="#contact" class="btn-secondary">Contact Me</a>
+            </div>
+        </div>
     </section>
+
 
     
 <!-- About Section -->
 <section id="about">
     <div class="about-container">
 
-          <div class="about-image">
+        <div class="about-image">
            <img src="assets/profile.jpg" alt="John Zachary G. David">
           </div>
 
@@ -94,17 +110,102 @@
 </section>
 
 
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills & Interests</h2>
+
+        <p class="skills-description">
+            A collection of skills I'm developing and passions that inspire me.
+        </p>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Building website structures</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing website layouts</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>PHP</h3>
+                <p>Learning backend development</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Making websites interactive</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Game Development</h3>
+                <p>Exploring game creation</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Music</h3>
+                <p>Playing musical instruments</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <p>
-            I've worked on different school projects involving web development,
-            programming,like DAGYAW Event Registration System,
-            Hotel reservation System, Dental Clinic Reservation System,
-            and system design. Each project gives me a chance
-            to learn something new, improve my coding skills, and explore
-            what I can create.
+
+        <p class="projects-description">
+            Some of the projects I've worked on while learning
+            programming and exploring web development.
         </p>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <h3>DAGYAW Event Registration System</h3>
+                <p>
+                    An event management system designed to organize
+                    events, manage participants, and handle registrations.
+                </p>
+                <div class="project-tags">
+                    <span>PHP</span>
+                    <span>OOP</span>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <h3>Hotel Reservation System</h3>
+                <p>
+                    A system designed to help manage hotel reservations
+                    and organize guest booking information.
+                </p>
+                <div class="project-tags">
+                    <span>Web Development</span>
+                    <span>PHP</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">03</div>
+                <h3>Dental Clinic Reservation System</h3>
+                <p>
+                    A reservation system designed to organize patient
+                    information and dental appointment schedules.
+                </p>
+                <div class="project-tags">
+                    <span>PHP</span>
+                    <span>Database</span>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <!-- Contact Section -->
